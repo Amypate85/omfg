@@ -1,0 +1,390 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family:     sans-serif;
+   color: ;
+   line-height: 1.34;
+   font-size: 1.2rem;
+   letter-spacing: 1.34px;
+
+}
+
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Spartan', sans-serif;*/
+
+
+body{
+   background-color: rgb(202, 222, 247);
+}
+
+
+
+nav{
+   background-color: rgb(0, 45, 71);
+   
+
+}
+
+
+
+ul{
+   display: flex;
+   flex-direction: row-reverse;
+   list-style: none;
+   padding: 1em;
+
+}
+
+
+li a{
+   color:rgb(252, 172, 0);
+   padding: 0 1em;
+   text-decoration: none;
+   font-size: .9rem;
+   letter-spacing: 1.5px;
+   font-family: 'Spartan', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+
+.current{
+   border-bottom: rgb(252,172,0) solid 1px;
+   padding: 0 .5em .5em;
+   
+}
+
+
+
+
+
+
+
+.hero-img{
+   height: 100vh;
+   width: 100%;
+   object-fit: cover;
+   background-color: gray;
+   min-height: 160vh;
+   box-shadow: 0 5px 7px;
+
+
+}
+
+
+.orange {
+   position: absolute;
+   top: 44%;
+   left: 5%;
+   color: rgb(252, 172, 0);
+   font-size: 1.1em;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 500;
+   
+}
+
+.wrapper {
+   background-image: url(https://gifted-poincare-b307cd.netlify.com/Images/hero.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+h1{
+   color:  white;
+   font-size: 3.959999rem;
+   font-size: 6rem;
+   position: absolute;
+   top: 18%;
+   left: 4%;
+   font-family: 'Playfair Display', serif;
+   letter-spacing: 3px;
+
+}
+
+ 
+
+
+
+
+
+
+.btn{
+   background-color:  rgb(0, 45, 71);
+   padding: 1.25rem 3.4rem;
+   color: rgb(252, 134, 0) ;
+   margin: -.60rem auto 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   font-size: 1.34em;
+   width: 45%;
+   border-radius: 50px;
+   margin: 2em auto;
+}
+
+
+.second{
+   width: 45%;
+   border-radius: 50px;
+   margin: 2em auto;
+   background-color:  rgb(252, 134, 0);
+   padding: 1.25rem 3.4rem;
+   color: rgb(0, 45, 71) ;
+   
+}
+
+
+.primary{
+   position: absolute;
+   bottom: 15%;
+   left: 5%;
+   color: rgb(0, 45, 71);
+   font-weight: 800;
+   background-color: rgb(252, 134, 0);
+   border: 2px solid rgb(0, 45, 71);
+   padding:  .75rem 1rem;
+   width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards{
+   padding: 2em;
+   display: flex;
+   flex-direction: row;
+   margin: 7em auto 2em;
+
+}
+
+.one, .two, .three{
+   padding:  1.5em;
+   box-shadow:  2px 2px 15px rgb(87, 86, 84);
+   background-color: rgb(255, 247, 231);
+   margin: 0 1em;
+   min-width: 30%;
+   max-width: 35%;
+   text-align: center;
+}
+
+   
+ 
+
+ .hthree{
+    font-size: 1.2em;
+    letter-spacing: .6;
+    font-weight: 600;
+
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255);
+    width: 100%;
+    padding: .5em 1em;
+    border: 2px solid rgba(252, 143, 0, .8);
+    color: rgba(252, 143, 0, .8);
+
+ }
+
+.cardimg{
+   width: 175px;
+   height: 125px;
+   margin: 1.8em  5%  1em; 
+   border-radius: 42%;
+
+ }
+
+
+ .cardp{
+    font-size: 1em;
+    font-family: 'Spartan', sans-serif;*/
+
+ }
+
+
+
+
+
+
+
+
+
+.wifi{
+   background-color: rgba(255, 255, 255, .5);
+   width: 80vw;
+   margin: 0 auto;
+   padding: 2em;
+}
+
+
+  h4, .wifi-col{
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 auto;
+    
+ }
+ h4{
+   color: rgb(131, 128, 124);
+   font-size: 2em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgba(0, 45, 71, .8);
+   padding: 1em 3em .5em;
+
+
+
+ }
+
+
+
+   .wifi-col{
+   color: rgb(168, 165, 160);
+   display: flex;
+   color: rgba(0, 45, 71, .8);
+   font-family: 'Playfair Display', serif;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 300;
+   border-top: 1px solid rgb(252, 134, 0);
+   padding: 4em 0 3em;
+   text-align: left;
+
+}
+
+
+.wifip, .wifip2{
+   padding: 0 2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fishing{
+   
+   display: flex;
+   flex-direction: row;
+   margin: 8em 3em 4em;
+
+}
+
+
+ .fish{
+   overflow: none;
+   align-self: flex-start;
+   height: 100%;
+   width: 100%;
+   font-size: 1em;
+
+}
+
+
+
+.FISH-P{
+  width: 70%;
+  padding: 2em 2em 0 0 ;
+  font-size: 1.4rem;
+  line-height: 1.34;
+  color: rgb(95, 165, 231);
+  color: rgba(0, 45, 71, .8); 
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Josefin Sans', sans-serif;}
+
+
+
+span{
+   font-size: 2em;
+   font-weight: bold;
+   margin-bottom: .5em;
+}
+
+
+
+
+footer{
+   color: rgba(0, 45, 71, .8);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:rgba(0, 45, 71, .8);  
+   height: 35vh;
+   text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+i{
+   color:rgba(0, 45, 71, .8) ;
+
+}
+
+.icons{
+   padding-bottom: 1em;
+   margin: 2em 6em 0;
+
+}
+
+
+
+
+
+
+ 
+
+.menuitems, .sitemap{
+   display:flex;
+   flex-direction: column;
+   padding: 0 1em;
+  margin 0em;  
+}
+
+a{
+   text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:  rgba(0, 45, 71, .8);
+   
+   padding: .2em;
+}
+
+.sitemapHead, .footermenu{
+   border-bottom: 1px solid rgba(0, 45, 71, .8);
+}
+
+a:focus, a:hover{
+   background-color: yellow;
+}
+
+.sitemap{
+align-items: flex-start;
+
+}
+
+.menuitems{
+  text-align: right;
+}
